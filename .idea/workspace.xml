@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c21c9616-3017-45e4-80f2-4c447756e7b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/product_create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/product_create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/product_show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/product_show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/ON.index" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ON.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_002" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1dg26cyBaPPlYZIkdYAZAnSZflc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nputans0\PhpstormProjects\Symfony-Docker#\code\src\Yoda\EventBundle\Resources\views\Default" />
+      <recent name="C:\Users\nputans0\PhpstormProjects\Symfony-Docker\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="php/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="php/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.php/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c21c9616-3017-45e4-80f2-4c447756e7b2" name="Default Changelist" comment="" />
+      <created>1592832241831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592832241831</updated>
+      <workItem from="1592832243574" duration="652000" />
+      <workItem from="1592832897822" duration="4724000" />
+      <workItem from="1593161085156" duration="15062000" />
+      <workItem from="1593409363629" duration="26257000" />
+      <workItem from="1593441085565" duration="287000" />
+      <workItem from="1593441595280" duration="798000" />
+      <workItem from="1593442665624" duration="4326000" />
+      <workItem from="1593495243518" duration="28206000" />
+      <workItem from="1593582313760" duration="12745000" />
+      <workItem from="1593672031057" duration="1176000" />
+      <workItem from="1593691520524" duration="3465000" />
+      <workItem from="1593761060450" duration="261000" />
+      <workItem from="1593775492018" duration="2580000" />
+      <workItem from="1593780809453" duration="32000" />
+      <workItem from="1593781525076" duration="25000" />
+      <workItem from="1593799405822" duration="3351000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="781" y="131" key="#Inspections" timestamp="1593445257899">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="781" y="131" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1593445257899" />
+    <state x="525" y="0" key="#PHP" timestamp="1593169282850">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="525" y="0" key="#PHP/0.0.1600.860@0.0.1600.860" timestamp="1593169282850" />
+    <state x="176" y="266" key="#SQL_Dialects" timestamp="1593442828376">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="176" y="266" key="#SQL_Dialects/0.0.1600.860@0.0.1600.860" timestamp="1593442828376" />
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593444540238">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1593444540238" />
+    <state x="628" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593517545304">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="628" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1593517545304" />
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593431603246">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1593431603246" />
+    <state x="530" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1593522997642">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1593522997642" />
+    <state x="504" y="0" key="#php/Dockerfile" timestamp="1593519755851">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="504" y="0" key="#php/Dockerfile/0.0.1600.860@0.0.1600.860" timestamp="1593519755851" />
+    <state x="599" y="185" key="FileChooserDialogImpl" timestamp="1593781547395">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="599" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1593781547394" />
+    <state x="484" y="137" key="NewPhpClassDialog" timestamp="1593523353733">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="484" y="137" key="NewPhpClassDialog/0.0.1600.860@0.0.1600.860" timestamp="1593523353733" />
+    <state x="463" y="102" key="SettingsEditor" timestamp="1593421635661">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="102" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1593421635661" />
+    <state x="506" y="187" width="583" height="566" key="find.popup" timestamp="1593518929452">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="506" y="187" width="583" height="566" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1593518929452" />
+    <state x="454" y="217" key="run.anything.popup" timestamp="1593584782947">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="454" y="217" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1593584782947" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1593523374190">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1593523374190" />
+  </component>
+</project>
