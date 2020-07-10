@@ -5,19 +5,32 @@ volumes: #When the container is deleted this volumes stay!
   vendor:
 
 services:
-  apache:
-    build: ./apache # Builds from this location (Dockerfile)
-    container_name: sf2_apache
+  # apache:
+  #   build: ./apache # Builds from this location (Dockerfile)
+  #   container_name: sf2_apache
+  #   ports:
+  #     - 81:80
+  #   volumes:
+  #     - ./config/vhosts:/etc/apache2/sites-enabled
+  #     - ./code/app/cache:/home/wwwroot/sf2/code/app/cache # Overrides cache folder
+  #     - ./code/app/logs:/home/wwwroot/sf2/code/app/logs # Overrides log folder
+  #     - ./code/vendor:/home/wwwroot/sf2/code/vendor # Overrides vendor folder
+  #     - ./code:/home/wwwroot/sf2/code
+  #   depends_on:
+  #     - php
+
+  nginx:
+    image: nginx:latest
+    container_name: sf2_nginx
     ports:
-      - 81:80
+        - "81:80"
+  #     - "443:443"
     volumes:
-      - ./config/vhosts:/etc/apache2/sites-enabled
-      - ./code/app/cache:/home/wwwroot/sf2/code/app/cache # Overrides cache folder
-      - ./code/app/logs:/home/wwwroot/sf2/code/app/logs # Overrides log folder
-      - ./code/vendor:/home/wwwroot/sf2/code/vendor # Overrides vendor folder
-      - ./code:/home/wwwroot/sf2/code
+        - ./code:/home/wwwroot/sf2/code:rw # With read / write access
+        - ./log:/webserver/log:rw # With read / write access
+        - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro # With read-only access
     depends_on:
-      - php
+        - php
 
   mysql:
     image: mysql:8

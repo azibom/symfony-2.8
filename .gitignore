@@ -12,3 +12,4 @@ code/bin/
 code/composer.phar
 code/.idea/
 data/db/*
+data/db
