@@ -9,7 +9,7 @@ services:
     build: ./apache # Builds from this location (Dockerfile)
     container_name: sf2_apache
     ports:
-      - 84:80
+      - 81:80
     volumes:
       - ./config/vhosts:/etc/apache2/sites-enabled
       - ./code/app/cache:/home/wwwroot/sf2/code/app/cache # Overrides cache folder
