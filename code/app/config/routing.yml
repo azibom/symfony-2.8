@@ -1,3 +1,13 @@
+core:
+    resource: "@CoreBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+acme_test:
+    resource: "@AcmeTestBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 yoda_event:
     resource: "@YodaEventBundle/Resources/config/routing.yml"
     prefix:   /

@@ -56,8 +56,10 @@ services:
       - ./code:/home/wwwroot/sf2/code
     environment:
       - maildev_host=sf2_maildev
+      - XDEBUG_ENABLE="true"
+      - DOCKERHOST=host.docker.internal
     depends_on:
-      - maildev
+#     - maildev
       - mysql
 
   phpmyadmin:
@@ -71,8 +73,8 @@ services:
     links:
       - mysql
 
-  maildev:
-    image: djfarrelly/maildev
-    container_name: sf2_maildev
-    ports:
-      - 8001:80
+#  maildev:
+#    image: djfarrelly/maildev
+#    container_name: sf2_maildev
+#    ports:
+#      - 8001:80

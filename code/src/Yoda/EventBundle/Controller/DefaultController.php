@@ -3,11 +3,20 @@
 namespace Yoda\EventBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
 {
-    public function indexAction($name)
+    /**
+     * @Route("/lucky/number")
+     */
+    public function numberAction()
     {
-        return $this->render('YodaEventBundle:Default:index.html.twig', array('name' => $name));
+        $number = random_int(0, 100);
+
+        return new Response(
+            '<html><body>Lucky number: '.$number.'</body></html>'
+        );
     }
 }

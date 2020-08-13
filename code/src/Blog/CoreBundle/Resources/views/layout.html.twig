@@ -1,0 +1,30 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('bundles/core/css/main.css') }}"></link>
+{% endblock %}
+
+{% block title %}CoreBundle:Post:index{% endblock %}
+
+{% block body %}
+    <header>
+        <p>Symfony 2 Blog</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">{{ 'home' | trans }}</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    {% block sidebar %}{% endblock %}
+
+    <section>
+        {% block section %}{% endblock %}
+    </section>
+
+    <footer>
+        <p>{{ 'now' | date('Y') }}</p>
+    </footer>
+{% endblock %}
