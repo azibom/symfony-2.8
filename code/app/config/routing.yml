@@ -2,7 +2,3 @@ core:
     resource: "@CoreBundle/Controller/"
     type:     annotation
     prefix:   /
-
-yoda_event:
-    resource: "@YodaEventBundle/Resources/config/routing.yml"
-    prefix:   /

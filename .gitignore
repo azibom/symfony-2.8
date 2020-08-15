@@ -14,3 +14,5 @@ code/.idea/
 data/db/*
 data/db
 code/composer.lock
+log/project_access.log
+log/project_error.log

@@ -2,7 +2,6 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
-    - { resource: "@YodaEventBundle/Resources/config/services.yml" }
     - { resource: "@CoreBundle/Resources/config/services.yml" }
     - { resource: "@ModelBundle/Resources/config/services.yml" }
 
