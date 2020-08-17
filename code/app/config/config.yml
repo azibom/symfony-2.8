@@ -5,11 +5,6 @@ imports:
     - { resource: "@CoreBundle/Resources/config/services.yml" }
     - { resource: "@ModelBundle/Resources/config/services.yml" }
 
-# services: 
-#     twig.extension.text:
-#         class: Twig_Extensions_Extension_Text
-#         tags: 
-#             - { name: twig.extension }
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
@@ -71,8 +66,3 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
-
-# stof_doctrine_extentions:
-#     orm:
-#         default:
-#             sluggable: true
