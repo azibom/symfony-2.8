@@ -23,7 +23,7 @@ services:
     image: nginx:latest
     container_name: sf2_nginx
     ports:
-        - "81:80"
+        - "80:80"
   #     - "443:443"
     volumes:
         - ./code:/home/wwwroot/sf2/code:rw # With read / write access
@@ -58,6 +58,7 @@ services:
       - maildev_host=sf2_maildev
       - XDEBUG_ENABLE="true"
       - DOCKERHOST=host.docker.internal
+      - COMPOSER_MEMORY_LIMIT=-1
     depends_on:
 #     - maildev
       - mysql

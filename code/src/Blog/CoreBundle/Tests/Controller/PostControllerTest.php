@@ -10,10 +10,9 @@ class PostControllerTest extends WebTestCase
     {
         $client = static::createClient();
 
-        $crawler = $client->request('GET', '/');
-
+        $crawler = $client->request('GET', 'http://127.0.0.1/');
         $this->assertTrue($client->getResponse()->isSuccessful(), 'The response was not successful');
-        $this->assertCount(3, $crawler->filter('h2'), 'There should be 3 displayed posts');
+        $this->assertCount(2, $crawler->filter('h2'), 'There should be 3 displayed posts');
     }
 
 }

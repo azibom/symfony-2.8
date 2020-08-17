@@ -1,4 +1,8 @@
 home : خانه
+by : به وسیله ی
+read.more : بیشتر بخوانید
 
 post :
     plural : مطالب
+    on : منتشر شده در
+    latests : اخرین مطالب
